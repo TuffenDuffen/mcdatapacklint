@@ -21,6 +21,6 @@ async fn main() {
 
     match &cli.command {
         Some(Commands::Serve) => server::run_server().await,
-        None => todo!(),
-    }
+        None => (),
+    };
 }
